@@ -10,12 +10,12 @@
 
 @font-face {
 	font-family:Myriad;
-	src:url(/fonts/Myriad.ttf);
+	src:url(fonts/Myriad.otf);
 }
 
 @font-face {
 	font-family:Helvetica;
-	src:url(fonts/Helvetica.ttf);
+	src:url(fonts/Helvetica.otf);
 }
 
 body {
@@ -45,6 +45,11 @@ p {
 	top: 0;
 	left: 0;
 	z-index: 1000;
+}
+
+.header.fixed {
+	position: fixed;
+	background: #3c2e69;
 }
 
 .header__inner {
