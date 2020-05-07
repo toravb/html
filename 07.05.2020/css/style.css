@@ -1,0 +1,320 @@
+@font-face {
+	font-family:Sansation;
+	src:url(fonts/sansation.regular.ttf);
+}
+
+@font-face {
+	font-family:Sansation;
+	src:url(fonts/sansation.bold.ttf);
+}
+
+@font-face {
+	font-family:Myriad;
+	src:url(/fonts/Myriad.ttf);
+}
+
+@font-face {
+	font-family:Helvetica;
+	src:url(fonts/Helvetica.ttf);
+}
+
+body {
+	margin: 0;
+	font-family: 'Sansation', sans-serif;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.container {
+	width: 100%;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 62px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: #5c5084 1px solid;
+	padding: 15px 0;
+}
+
+.logo {
+	padding-right: 30px;
+}
+
+.header__logo {
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.nav {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 30px;
+	transition: 0.1s linear;
+}
+
+.nav__link:hover {
+	color: #167785;
+}
+
+.header__link {
+	text-decoration: none;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 552px;
+
+	background: #3c2e69 url("../img/bannerbg.jpg")  center no-repeat;
+}
+
+.intro__inner {
+	padding-top: 62px;
+	text-align: center;
+}
+
+.intro__container {
+	width: 100%;
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+.intro__title {
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.intro__text {
+	font-size: 15px
+	padding-bottom: 40px;
+}
+
+.button {
+	padding-top: 15px;
+}
+
+.btn {
+	border: 3px solid #fff;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info__img {
+	max-width: 485px;
+	float: left;
+}
+
+.info__inner {
+	color: #252525;
+	padding-left: 537px;
+}
+
+.info__title {
+	padding-top: 50px;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+}
+
+.info__text {
+	padding-top: 35px;
+	font-family: 'Myriad', sans-serif;
+	font-size: 19px;
+	text-align: left;
+}
+
+.info__button {
+	padding-top: 45px;
+}
+
+.info__btn {
+	font-size: 9px;
+	padding: 8px 25px;
+	text-decoration: none;
+	color: #fff;
+	border: solid #05a0af;
+	background-color: #05a0af;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+.services {
+	background-color: #3d3d3d;
+	height: 792px;
+}
+
+.services__header {
+	height: 140px;
+	text-align: center;
+	background-color: #373737;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 90px;
+}
+
+.services__inner {
+	height: 556px;
+	display: flex;
+}
+
+.services__item {
+	width: 33.33333%;
+	text-align: center;
+	transition: 0.1s linear;
+}
+
+.services__item:hover {
+	background-color: #097e89;
+}
+
+.services__img {
+	margin-top: 144px;
+}
+
+.services__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 55px;
+}
+
+.services__text {
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.services__btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	color: #d3d3d3;
+	padding: 7px 27px;
+	border: #959595 solid;
+	border-radius: 3px;
+	background-color: #959595;
+}
+
+.clients__header {
+	height: 140px;
+	text-align: center;
+	background-color: #f2f2f2;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 90px;
+	color: #656464;
+}
+
+
+.clients__inner {
+display: flex;
+flex-wrap: wrap;
+}
+
+.clients__item {
+	width: 25%;
+	text-align: center;
+	margin: 40px 0px;
+}
+
+.phone {
+	display: flex;
+	height: 171px;
+	background-color: #097e89;
+}
+
+.phone__call {
+	margin-top: 28px;
+	width: 40%;
+	float: left;
+}
+
+.phone__title {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.phone__text {
+	padding-top: 33px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.phone__inner {
+	margin: 81px 0;
+	text-align: right;
+}
+
+.phone__name {
+	padding: 18px 40px 18px 20px;
+}
+
+.phone__number {
+	padding: 18px 40px 18px 20px;
+}
+
+.phone__button {
+	font-size: 12px;
+	color: #097e89;
+	opacity: 100%;
+	background-color: #fff;
+	padding: 18px 20px 18px 20px;
+}
+
+.footer {
+	display: flex;
+	background-color: #474747;
+}
+
+.footer__inner {
+	width: 165px;
+	margin: 28px 20px 0 0;
+	text-align: left;
+}
+
+.footer__title {
+	margin-bottom: 20px;
+}
+
+.footer__link {
+	margin-top: 20px;
+}
